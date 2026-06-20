@@ -1,0 +1,17 @@
+[
+  {
+    "nume": "Renatus Sec",
+    "descriere": "Când pasiunea întâlnește terroir-ul generos de la Măcin, ia naștere gama Renatus. Eleganță contemporană în fiecare pahar.",
+    "imagine": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&auto=format&fit=crop"
+  },
+  {
+    "nume": "Fetească Neagră",
+    "descriere": "Soiul emblematic al României — robust, cu note de fructe negre și tanini eleganți.",
+    "imagine": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=400&auto=format&fit=crop"
+  },
+  {
+    "nume": "Tămâioasă Românească",
+    "descriere": "Un alb aromat, cu parfum floral intens și o aciditate echilibrată — unic în lume.",
+    "imagine": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fit=crop"
+  }
+]
