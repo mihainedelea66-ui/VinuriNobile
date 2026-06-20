@@ -9,27 +9,25 @@
 </head>
 <body>
 
-    <!-- MENIU NAVIGARE -->
     <nav>
         <div class="logo">Vinuri Nobile</div>
         <ul>
             <li><a href="#despre">Despre</a></li>
             <li><a href="#proiecte">Proiecte</a></li>
+            <li><a href="#colectie">Colecție</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- HERO -->
     <section class="hero">
         <div class="hero-content">
             <h1>Vinuri Nobile</h1>
             <p class="subtitlu">Pasiune · Tradiție · Eleganță</p>
             <p class="descriere">Explorez cramele și vinurile cu povești autentice din România și din lume.</p>
-            <a href="#proiecte" class="btn">Vezi Proiectele</a>
+            <a href="#colectie" class="btn">Vezi Colecția</a>
         </div>
     </section>
 
-    <!-- BANNER POZA STANGA + TEXT DREAPTA -->
     <section class="banner-split">
         <div class="banner-img">
             <img src="https://images.unsplash.com/photo-1630264036470-6016f6598114?q=80&w=687&auto=format&fit=crop" alt="Vinuri Nobile" />
@@ -41,7 +39,6 @@
         </div>
     </section>
 
-    <!-- DESPRE -->
     <section id="despre" class="sectiune">
         <h2>Despre</h2>
         <div class="despre-text">
@@ -57,10 +54,8 @@
         </div>
     </section>
 
-    <!-- PROIECTE -->
     <section id="proiecte" class="sectiune sectiune-inchisa">
         <h2>Proiectele Noastre</h2>
-
         <h3 class="sub-titlu-sectiune">🏰 Crame Vizitate</h3>
         <div class="carduri">
             <div class="card">
@@ -79,29 +74,18 @@
                 <p>Vinuri artizanale create cu atenție la fiecare detaliu, din podgoriile Munteniei.</p>
             </div>
         </div>
+    </section>
 
-        <h3 class="sub-titlu-sectiune">🍷 Vinuri Recomandate</h3>
-        <div class="carduri">
-            <div class="card">
-                <div class="card-icon">🥂</div>
-                <h4>Fetească Neagră</h4>
-                <p>Soiul emblematic al României — robust, cu note de fructe negre și tanini eleganți.</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🥂</div>
-                <h4>Tămâioasă Românească</h4>
-                <p>Un alb aromat, cu parfum floral intens și o aciditate echilibrată — unic în lume.</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🥂</div>
-                <h4>Negru de Drăgășani</h4>
-                <p>Soi autohton rar, cu personalitate distinctă și potențial mare de învechire.</p>
-            </div>
+    <!-- COLECTIE VINURI -->
+    <section id="colectie" class="sectiune">
+        <h2>Colecție de Vinuri Nobile</h2>
+        <p class="contact-intro">Sortimentele disponibile în magazinul nostru din Constanța</p>
+        <div class="carduri" id="lista-vinuri">
+            <!-- Vinurile se incarca automat din vinuri.json -->
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="sectiune">
+    <section id="contact" class="sectiune sectiune-inchisa">
         <h2>Contact</h2>
         <p class="contact-intro">Vrei să colaborăm sau să discutăm despre vin? Contactează-l pe <strong>Nedelea Mihai</strong>:</p>
         <div class="contact-info">
@@ -124,7 +108,6 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
         <p>© 2026 Vinuri Nobile — Nedelea Mihai. Toate drepturile rezervate.</p>
     </footer>
