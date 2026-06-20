@@ -275,4 +275,117 @@ h2::after {
 }
 
 .card:hover {
-    transform:
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--verde);
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ===== CARDURI VINURI ===== */
+.card-vin {
+    padding: 0 0 25px 0;
+    overflow: hidden;
+}
+
+.vin-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease;
+}
+
+.card-vin:hover .vin-img {
+    transform: scale(1.05);
+}
+
+/* ===== CONTACT ===== */
+.contact-intro {
+    text-align: center;
+    font-size: 1.05rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: var(--alb);
+    border-radius: 8px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    transition: transform 0.3s;
+}
+
+.contact-item:hover {
+    transform: translateY(-4px);
+}
+
+.contact-icon {
+    font-size: 1.4rem;
+}
+
+.contact-item a {
+    color: var(--verde);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.contact-item a:hover {
+    color: var(--maro);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: var(--verde);
+    color: var(--crem);
+    text-align: center;
+    padding: 25px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    nav {
+        padding: 15px 25px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul { gap: 20px; }
+    .hero-content h1 { font-size: 2.2rem; }
+    .sectiune { padding: 60px 25px; }
+    .sectiune-inchisa { padding: 60px 25px; }
+
+    .banner-split { flex-direction: column; }
+    .banner-img { height: 300px; }
+    .banner-txt { padding: 40px 25px; }
+    .banner-txt h2 { font-size: 2rem; }
+}
