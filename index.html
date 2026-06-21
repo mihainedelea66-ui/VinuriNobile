@@ -15,6 +15,7 @@
             <li><a href="#despre">Despre</a></li>
             <li><a href="#proiecte">Proiecte</a></li>
             <li><a href="#colectie">Colecție</a></li>
+            <li><a href="#galerie">Galerie</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -81,6 +82,31 @@
         <p class="contact-intro">Sortimentele disponibile în magazinul nostru din Constanța</p>
         <div class="carduri" id="lista-vinuri">
             <!-- Vinurile se incarca automat din vinuri.json -->
+        </div>
+    </section>
+
+    <!-- ===== GALERIE ===== -->
+    <!--
+        CUM SA ADAUGI IMAGINI IN GALERIE:
+        Deschide fisierul "galerie.txt" si adauga imagini in formatul:
+
+        TITLU: Numele imaginii
+        IMAGINE: imagini/numele_fisierului.jpg
+
+        Fiecare imagine separata printr-o linie goala.
+        Poti folosi si linkuri externe: IMAGINE: https://...
+    -->
+    <section id="galerie" class="sectiune sectiune-inchisa">
+        <h2>Galerie</h2>
+        <p class="contact-intro">Momente și imagini din lumea noastră a vinului</p>
+        <div class="galerie-grid" id="galerie-grid">
+            <!-- Imaginile se incarca automat din galerie.txt -->
+        </div>
+        <!-- Lightbox pentru marirea imaginilor -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightbox-close">✕</span>
+            <img src="" alt="" id="lightbox-img" />
+            <p class="lightbox-titlu" id="lightbox-titlu"></p>
         </div>
     </section>
 
