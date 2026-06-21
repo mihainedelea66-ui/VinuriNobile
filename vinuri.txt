@@ -1,6 +1,6 @@
 NUME: Renatus Sec
 DESCRIERE: 🍷 Când pasiunea întâlnește terroir-ul generos de la Măcin, ia naștere gama Renatus. Un vin sec, proaspăt, cu arome fine de fructe albe și o aciditate echilibrată — perfect pentru momente de rafinament. Eleganță contemporană în fiecare pahar.
-IMAGINE: imagini/poza1.jpg.jpg
+IMAGINE: imagini/renatus.sec.jpeg
 
 NUME: Fetească Neagră
 DESCRIERE: 🍇 Soiul emblematic al României — robust, cu note de fructe negre și tanini eleganți. Feteasca Neagră exprimă cel mai bine caracterul profund al podgoriilor dobrogene, oferind un vin cu personalitate puternică și o finisare lungă și plăcută.
