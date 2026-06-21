@@ -4,7 +4,7 @@ IMAGINE: imagini/renatus.sec.jpeg
 
 NUME: Domeniile Averesti
 DESCRIERE: 🍇 Domeniile Averești este o cramă cu tradiție din Podgoria Huși, România, cunoscută pentru vinurile sale proaspete și aromate. Pune în valoare soiuri autohtone precum Zghihară de Huși și Busuioacă de Bohotin, oferind vinuri echilibrate, cu aciditate plăcută și caracter autentic.
-IMAGINE: imagini/poza2.jpg.jpg
+IMAGINE: imagini/domeniileaveresti.jpeg
 
 NUME: Curtea Regala
 DESCRIERE: 🍷 Curtea Regală este o gamă de vinuri produsă de crama Vinuri de Măcin, din Dobrogea (zona Sarica–Niculițel). Aceste vinuri se remarcă prin stilul lor accesibil și echilibrat, punând în valoare caracterul terroir-ului dobrogean, cu arome fructate și prospețime plăcută. Gama include atât vinuri albe (Sauvignon Blanc, Chardonnay), cât și roșii (Cabernet Sauvignon, Shiraz), fiind apreciată pentru raportul bun calitate–preț și versatilitatea la asocierea cu mâncarea.
