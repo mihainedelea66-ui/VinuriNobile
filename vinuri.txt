@@ -6,8 +6,8 @@ NUME: Fetească Neagră
 DESCRIERE: 🍇 Soiul emblematic al României — robust, cu note de fructe negre și tanini eleganți. Feteasca Neagră exprimă cel mai bine caracterul profund al podgoriilor dobrogene, oferind un vin cu personalitate puternică și o finisare lungă și plăcută.
 IMAGINE: imagini/poza2.jpg.jpg
 
-NUME: Renatus Demisec
-DESCRIERE: 🍷 Fie că preferi varianta Sec sau Demisec, gama Renatus este etalonul eleganței contemporane. Inspirație din natură, rafinament în pahar. Disponibil acum la Magazin Vinuri Nobile, gata să completeze cele mai prețioase momente din viața ta.
+NUME: Curtea Regala
+DESCRIERE: 🍷 Curtea Regală este o gamă de vinuri produsă de crama Vinuri de Măcin, din Dobrogea (zona Sarica–Niculițel). Aceste vinuri se remarcă prin stilul lor accesibil și echilibrat, punând în valoare caracterul terroir-ului dobrogean, cu arome fructate și prospețime plăcută. Gama include atât vinuri albe (Sauvignon Blanc, Chardonnay), cât și roșii (Cabernet Sauvignon, Shiraz), fiind apreciată pentru raportul bun calitate–preț și versatilitatea la asocierea cu mâncarea.
 IMAGINE: imagini/colectie_vinuri1.jpeg
 
 NUME: Tradiția Regală
