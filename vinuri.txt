@@ -14,6 +14,9 @@ NUME: Tradiția Regală
 DESCRIERE: 👑 Putere și eleganță într-o singură sticlă. Amestecul dintre notele condimentate ale Shiraz-ului și finețea fructată a Feteștii Negre creează un echilibru perfect în pahar. Savurează-l alături de preparate tradiționale din carne roșie sau brânzeturi maturate.
 IMAGINE: imagini/colectie_vinuri2.jpeg
 
-NUME: Curtea Regală — Cabernet Sauvignon
-DESCRIERE: 🍷 Roșu intens, spirit de Măcin. Cabernet Sauvignon Sec de la Curtea Regală este o invitație la o experiență senzorială profundă. Cu o culoare rubinie intensă și un buchet bogat, reprezintă mândria podgoriilor noastre. Perfect pentru cine copioase și fripturi savuroase.
-IMAGINE: imagini/colectie_vinuri1.jpeg
+NUME: Macin - Hercinic
+DESCRIERE: 🍷 🌸 Rosé
+Proaspăt și fructat, cu note de căpșuni și zmeură. Perfect pentru vară, ușor și răcoritor.⚪ Alb – Aligoté (cel mai probabil)
+Un vin lejer, cu aciditate plăcută și arome citrice și florale. Foarte bun lângă pește sau mâncăruri ușoare.🔴 Roșu – Fetească Neagră
+Un vin mai intens, cu arome de fructe negre (prune, cireșe coapte) și ușoare note condimentate. Este echilibrat, ușor de băut, dar cu personalitate.
+IMAGINE: imagini/hercinicmacin.jpeg
