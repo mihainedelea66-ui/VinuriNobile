@@ -2,8 +2,8 @@ NUME: Renatus Sec
 DESCRIERE: 🍷 Când pasiunea întâlnește terroir-ul generos de la Măcin, ia naștere gama Renatus. Un vin sec, proaspăt, cu arome fine de fructe albe și o aciditate echilibrată — perfect pentru momente de rafinament. Eleganță contemporană în fiecare pahar.
 IMAGINE: imagini/renatus.sec.jpeg
 
-NUME: Fetească Neagră
-DESCRIERE: 🍇 Soiul emblematic al României — robust, cu note de fructe negre și tanini eleganți. Feteasca Neagră exprimă cel mai bine caracterul profund al podgoriilor dobrogene, oferind un vin cu personalitate puternică și o finisare lungă și plăcută.
+NUME: Domeniile Averesti
+DESCRIERE: 🍇 Domeniile Averești este o cramă cu tradiție din Podgoria Huși, România, cunoscută pentru vinurile sale proaspete și aromate. Pune în valoare soiuri autohtone precum Zghihară de Huși și Busuioacă de Bohotin, oferind vinuri echilibrate, cu aciditate plăcută și caracter autentic.
 IMAGINE: imagini/poza2.jpg.jpg
 
 NUME: Curtea Regala
@@ -12,7 +12,7 @@ IMAGINE: imagini/colectie_vinuri1.jpeg
 
 NUME: Tradiția Regală
 DESCRIERE: 👑 Putere și eleganță într-o singură sticlă. Amestecul dintre notele condimentate ale Shiraz-ului și finețea fructată a Feteștii Negre creează un echilibru perfect în pahar. Savurează-l alături de preparate tradiționale din carne roșie sau brânzeturi maturate.
-IMAGINE: imagini/poza2.jpg.jpg
+IMAGINE: imagini/colectie_vinuri2.jpeg
 
 NUME: Curtea Regală — Cabernet Sauvignon
 DESCRIERE: 🍷 Roșu intens, spirit de Măcin. Cabernet Sauvignon Sec de la Curtea Regală este o invitație la o experiență senzorială profundă. Cu o culoare rubinie intensă și un buchet bogat, reprezintă mândria podgoriilor noastre. Perfect pentru cine copioase și fripturi savuroase.
