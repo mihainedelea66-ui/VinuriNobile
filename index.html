@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinaria Nobila Constanta</title>
+
+    <!-- ===== PREVIZUALIZARE LINK (WhatsApp, Facebook, etc.) ===== -->
+    <meta property="og:title" content="Vinaria Nobila Constanta" />
+    <meta property="og:description" content="Pasiune · Tradiție · Eleganță — Vinuri nobile din România, direct de la sursă." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1630264036470-6016f6598114?q=80&w=1200&auto=format&fit=crop" />
+    <meta property="og:type" content="website" />
+
+    <!-- ===== PENTRU GOOGLE ===== -->
+    <meta name="description" content="Pasiune · Tradiție · Eleganță — Vinuri nobile din România, direct de la sursă." />
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
@@ -35,108 +45,4 @@
         </div>
         <div class="banner-txt">
             <h2>Vinaria Nobila Constanta</h2>
-            <p>Fiecare sticlă ascunde o poveste despre pământ, oameni și pasiune. Explorez lumea vinului cu respect pentru tradiție și cu ochii deschiși spre nou.</p>
-            <img src="https://images.unsplash.com/photo-1637181155600-f4487dabf8ba?q=80&w=1170&auto=format&fit=crop" alt="Crame" class="banner-img2" />
-        </div>
-    </section>
-
-    <section id="despre" class="sectiune">
-        <h2>Despre</h2>
-        <div class="despre-text">
-            <p>Activăm în domeniul vinurilor nobile cu o pasiune profundă pentru terroir, soiuri și producători autentici. Am vizitat zeci de crame din România.</p>
-            <p>Cred că un vin bun spune o poveste — despre pământ, oameni și timp. Misiunea noastră este să aducem aceste povești mai aproape de cei care iubesc vinul cu adevărat.</p>
-            <div class="skills">
-                <span class="skill-tag">Degustare</span>
-                <span class="skill-tag">Somelerie - Consultanta</span>
-                <span class="skill-tag">Crame Românești</span>
-                <span class="skill-tag">Direct de la Sursa</span>
-            </div>
-        </div>
-    </section>
-
-    <section id="proiecte" class="sectiune sectiune-inchisa">
-        <h2>Proiectele Noastre</h2>
-        <h3 class="sub-titlu-sectiune">🏰 Crame Vizitate</h3>
-        <div class="carduri">
-            <div class="card">
-                <div class="card-icon">🍇</div>
-                <h4>Crama Renatus</h4>
-                <p>Crama Renatus este o cramă modernă din Republica Moldova, cunoscută pentru vinurile sale de calitate obținute din struguri cultivați în propriile podgorii. Îmbină tehnologia actuală cu tradițiile vinificației, rezultând vinuri echilibrate, aromate și apreciate atât pe plan local, cât și internațional</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🍇</div>
-                <h4>Crama Domeniile Averesti</h4>
-                <p>Domeniile Averești este o cramă renumită din Podgoria Huși (Moldova, România), cu o tradiție viticolă ce datează din 1874. Îmbină istoria și tehnologia modernă pentru a produce vinuri proaspete și aromate, punând accent pe soiuri autohtone precum Zghihară de Huși și Busuioacă de Bohotin, dar și pe varietăți internaționale. Vinurile sale sunt apreciate pentru echilibrul, aciditatea vibrantă și caracterul autentic al terroir-ului moldovenesc.</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🍇</div>
-                <h4>Crama Macin</h4>
-                <p>Măcin Hercinic Wine este o gamă de vinuri produsă de crama Vinuri de Măcin, din Dobrogea, în zona Sarica–Niculițel. Inspirată de Munții Hercinici din apropiere, această linie reflectă caracterul terroir-ului dobrogean, oferind vinuri proaspete și echilibrate, realizate din soiuri românești și internaționale precum Fetească Neagră, Merlot sau Aligoté. Gama este apreciată pentru aromele sale naturale și pentru raportul bun calitate-preț.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- COLECTIE VINURI -->
-    <section id="colectie" class="sectiune">
-        <h2>Colecție de Vinuri Nobile</h2>
-        <p class="contact-intro">Sortimentele disponibile în magazinul nostru din Constanța</p>
-        <div class="carduri" id="lista-vinuri">
-            <!-- Vinurile se incarca automat din vinuri.json -->
-        </div>
-    </section>
-
-    <!-- ===== GALERIE ===== -->
-    <!--
-        CUM SA ADAUGI IMAGINI IN GALERIE:
-        Deschide fisierul "galerie.txt" si adauga imagini in formatul:
-
-        TITLU: Numele imaginii
-        IMAGINE: imagini/numele_fisierului.jpg
-
-        Fiecare imagine separata printr-o linie goala.
-        Poti folosi si linkuri externe: IMAGINE: https://...
-    -->
-    <section id="galerie" class="sectiune sectiune-inchisa">
-        <h2>Galerie</h2>
-        <p class="contact-intro">Momente și imagini din lumea noastră a vinului</p>
-        <div class="galerie-grid" id="galerie-grid">
-            <!-- Imaginile se incarca automat din galerie.txt -->
-        </div>
-        <!-- Lightbox pentru marirea imaginilor -->
-        <div class="lightbox" id="lightbox">
-            <span class="lightbox-close" id="lightbox-close">✕</span>
-            <img src="" alt="" id="lightbox-img" />
-            <p class="lightbox-titlu" id="lightbox-titlu"></p>
-        </div>
-    </section>
-
-    <section id="contact" class="sectiune sectiune-inchisa">
-        <h2>Contact</h2>
-        <p class="contact-intro">Vrei să colaborăm sau să discutăm despre vin? Date de Contact : <strong>Nedelea Nicoleta</strong>:</p>
-        <div class="contact-info">
-            <div class="contact-item">
-                <span class="contact-icon">📧</span>
-                <a href="mailto:mihainedelea66@yahoo.com">mihainedelea66@yahoo.com</a>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">📞</span>
-                <a href="tel:+40747155888">+40747155888</a>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">📘</span>
-                <a href="https://www.facebook.com/share/14fEykyYDjQ/" target="_blank">Facebook</a>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">📍</span>
-                <a href="https://www.google.com/maps/place/MagazinVinuriNobileSiCafea/@44.1778084,28.6368561,17z/data=!4m14!1m7!3m6!1s0x40bae54a6ddf268d:0xa01119f9b75af8a1!2sMagazinVinuriNobileSiCafea!8m2!3d44.1778232!4d28.6373272!16s%2Fg%2F11mzc6659t!3m5!1s0x40bae54a6ddf268d:0xa01119f9b75af8a1!8m2!3d44.1778232!4d28.6373272!16s%2Fg%2F11mzc6659t?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Magazin Vinuri Nobile și Cafea — Constanța</a>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2026 Vinaria Nobila Constanta — Nedelea Nicoleta . Toate drepturile rezervate.</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+            <p>Fiecare sticlă ascunde o poveste despre pământ, oameni și
