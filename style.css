@@ -389,3 +389,11 @@ footer {
     .banner-txt { padding: 40px 25px; }
     .banner-txt h2 { font-size: 2rem; }
 }
+
+.vin-descriere {
+    text-align: left;
+    padding: 0 18px 10px;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.7;
+}
