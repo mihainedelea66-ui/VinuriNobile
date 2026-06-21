@@ -1,0 +1,14 @@
+TITLU: Crama Renatus
+IMAGINE: imagini/renatus.sec.jpeg
+
+TITLU: Colectie Vinuri
+IMAGINE: imagini/colectie_vinuri1.jpeg
+
+TITLU: Domeniile Averesti
+IMAGINE: imagini/domeniileaveresti.jpeg
+
+TITLU: Hercinic Macin
+IMAGINE: imagini/hercinicmacin.jpeg
+
+TITLU: Vinuri Nobile
+IMAGINE: imagini/colectie_vinuri2.jpeg
