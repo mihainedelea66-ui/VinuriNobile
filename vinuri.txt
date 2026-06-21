@@ -1,9 +1,19 @@
-TITLU: Curtea Reagala
-DESCRIERE: 🍷Roșu intens, spirit de Măcin 🍷👑
-​Există momente care cer un vin cu personalitate. Cabernet Sauvignon Sec de la Curtea Regală este o invitație la o experiență senzorială profundă. 
-Cu o culoare rubinie intensă și un buchet bogat, acest vin reprezintă mândria podgoriilor noastre.
-🍇​Caracter: Sec, robust și echilibrat.
-🍇​Perfect pentru: Cine copioase, fripturi savuroase sau pur și simplu pentru o seară de introspecție.
-🍇​Origine: Măcin – unde tradiția se împletește cu pasiunea.
-​Te așteptăm la Magazin Vinuri Nobile să descoperi forța unui vin regal!❤️
-IMAGINE: imagini/colectie_vinuri1.jpg
+NUME: Renatus Sec
+DESCRIERE: 🍷 Când pasiunea întâlnește terroir-ul generos de la Măcin, ia naștere gama Renatus. Un vin sec, proaspăt, cu arome fine de fructe albe și o aciditate echilibrată — perfect pentru momente de rafinament. Eleganță contemporană în fiecare pahar.
+IMAGINE: imagini/poza1.jpg.jpg
+
+NUME: Fetească Neagră
+DESCRIERE: 🍇 Soiul emblematic al României — robust, cu note de fructe negre și tanini eleganți. Feteasca Neagră exprimă cel mai bine caracterul profund al podgoriilor dobrogene, oferind un vin cu personalitate puternică și o finisare lungă și plăcută.
+IMAGINE: imagini/poza2.jpg.jpg
+
+NUME: Renatus Demisec
+DESCRIERE: 🍷 Fie că preferi varianta Sec sau Demisec, gama Renatus este etalonul eleganței contemporane. Inspirație din natură, rafinament în pahar. Disponibil acum la Magazin Vinuri Nobile, gata să completeze cele mai prețioase momente din viața ta.
+IMAGINE: imagini/colectie_vinuri1.jpeg
+
+NUME: Tradiția Regală
+DESCRIERE: 👑 Putere și eleganță într-o singură sticlă. Amestecul dintre notele condimentate ale Shiraz-ului și finețea fructată a Feteștii Negre creează un echilibru perfect în pahar. Savurează-l alături de preparate tradiționale din carne roșie sau brânzeturi maturate.
+IMAGINE: imagini/poza2.jpg.jpg
+
+NUME: Curtea Regală — Cabernet Sauvignon
+DESCRIERE: 🍷 Roșu intens, spirit de Măcin. Cabernet Sauvignon Sec de la Curtea Regală este o invitație la o experiență senzorială profundă. Cu o culoare rubinie intensă și un buchet bogat, reprezintă mândria podgoriilor noastre. Perfect pentru cine copioase și fripturi savuroase.
+IMAGINE: imagini/colectie_vinuri1.jpeg
