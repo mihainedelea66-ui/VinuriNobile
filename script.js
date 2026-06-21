@@ -76,3 +76,81 @@ fetch('vinuri.txt')
         document.getElementById('lista-vinuri').innerHTML =
             '<p style="text-align:center;color:#888">Eroare la încărcarea vinurilor.</p>';
     });
+
+// ===== GALERIE =====
+fetch('galerie.txt')
+    .then(r => r.text())
+    .then(text => {
+        const linii = text.split('\n').map(l => l.trim());
+        const imagini = [];
+        let img = {};
+
+        linii.forEach(linie => {
+            if (linie.startsWith('TITLU:')) {
+                if (img.imagine) imagini.push(img);
+                img = { titlu: linie.replace('TITLU:', '').trim() };
+            } else if (linie.startsWith('IMAGINE:')) {
+                img.imagine = linie.replace('IMAGINE:', '').trim();
+            }
+        });
+        if (img.imagine) imagini.push(img);
+
+        const grid = document.getElementById('galerie-grid');
+
+        if (imagini.length === 0) {
+            grid.innerHTML = '<p class="galerie-gol">Nu există imagini în galerie momentan.</p>';
+            return;
+        }
+
+        grid.innerHTML = imagini.map((item, index) => `
+            <div class="galerie-item" data-index="${index}" data-titlu="${item.titlu || ''}" data-src="${item.imagine}">
+                <img src="${item.imagine}"
+                     alt="${item.titlu || 'Imagine galerie'}"
+                     onerror="this.src='https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=600&auto=format&fit=crop'"/>
+                <div class="galerie-overlay">${item.titlu || ''}</div>
+            </div>
+        `).join('');
+
+        // Animatie la aparitie
+        document.querySelectorAll('.galerie-item').forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'scale(0.95)';
+            item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+
+        const observerGalerie = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'scale(1)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.galerie-item').forEach(item => observerGalerie.observe(item));
+
+        // Lightbox - deschide la click
+        document.querySelectorAll('.galerie-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const lb = document.getElementById('lightbox');
+                document.getElementById('lightbox-img').src = item.dataset.src;
+                document.getElementById('lightbox-titlu').textContent = item.dataset.titlu;
+                lb.classList.add('activ');
+            });
+        });
+    })
+    .catch(() => {
+        const grid = document.getElementById('galerie-grid');
+        if (grid) grid.innerHTML = '<p class="galerie-gol">Fisierul galerie.txt nu a fost gasit.</p>';
+    });
+
+// Lightbox - inchide
+document.getElementById('lightbox-close').addEventListener('click', () => {
+    document.getElementById('lightbox').classList.remove('activ');
+});
+document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) this.classList.remove('activ');
+});
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') document.getElementById('lightbox').classList.remove('activ');
+});
