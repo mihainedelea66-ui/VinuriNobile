@@ -15,8 +15,5 @@ DESCRIERE: 👑 Putere și eleganță într-o singură sticlă. Amestecul dintre
 IMAGINE: imagini/colectie_vinuri2.jpeg
 
 NUME: Macin - Hercinic
-DESCRIERE: 🍷 🌸 Rosé
-Proaspăt și fructat, cu note de căpșuni și zmeură. Perfect pentru vară, ușor și răcoritor.⚪ Alb – Aligoté (cel mai probabil)
-Un vin lejer, cu aciditate plăcută și arome citrice și florale. Foarte bun lângă pește sau mâncăruri ușoare.🔴 Roșu – Fetească Neagră
-Un vin mai intens, cu arome de fructe negre (prune, cireșe coapte) și ușoare note condimentate. Este echilibrat, ușor de băut, dar cu personalitate.
+DESCRIERE: 🍷 🌸 Rosé Proaspăt și fructat, cu note de căpșuni și zmeură. Perfect pentru vară, ușor și răcoritor.⚪ Alb – Aligoté (cel mai probabil) Un vin lejer, cu aciditate plăcută și arome citrice și florale. Foarte bun lângă pește sau mâncăruri ușoare.🔴 Roșu – Fetească Neagră Un vin mai intens, cu arome de fructe negre (prune, cireșe coapte) și ușoare note condimentate. Este echilibrat, ușor de băut, dar cu personalitate.
 IMAGINE: imagini/hercinicmacin.jpeg
